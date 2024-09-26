@@ -14,27 +14,26 @@
         <div id="page">
             <div id="info_container">
                 <div id="detail_title">Get Started</div>
+                <form id="data_form" action method>
                 <div id="detail_info">
-                    <form action method>
                         <fieldset id="infos">
                             <div class="form_fill">
-                                <label for="user">Username</label>
-                                <input id="user" type="">
+                                <label for="iduser">Username</label>
+                                <input id="iduser" name="user" type="text" placeholder="Enter your name" required>
                             </div>
                             <div class="form_fill">
-                                <label for="email">Email</label>
-                                <input id="email" type="">
+                                <label for="idemail">Email</label>
+                                <input id="idemail" name="email" type="email" placeholder="Enter your email" required>
                             </div>
                             <div class="form_fill">
-                                <label for="password">Password</label>
-                                <input id="password" type="">
+                                <label for="idpassword">Password</label>
+                                <input id="idpassword" name="password" type="password" placeholder="Enter your password" required>
                             </div>
                             <div class="form_fill">
-                                <label id="cp_label" for="confirm_password">Confirm Password</label>
-                                <input id="confirm_password" type="">
+                                <label id="matchs" for="idconfirm_password">Confirm Password</label>
+                                <input id="idconfirm_password" name="confirm_password" type="password" placeholder="Enter your password again" required>
                             </div>
                         </fieldset>
-                    </form>
                 </div>
                 <div id="footer">
                     <button id="sumbit_button" type="submit">Create Account</button>
@@ -42,6 +41,7 @@
                         Already have an account? <a>Log in</a>
                     </div>
                 </div>
+            </form>
             </div>
         </div>
     </div>
